@@ -163,3 +163,21 @@ nav {
 .capture-pointer-events * {
   @apply pointer-events-none;
 }
+
+@font-face {
+  font-family: 'LXGWBrightGB';
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/LXGWBrightGB-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LXGWBrightGB';
+  font-weight: normal;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url('/fonts/LXGWBrightGB-Italic.woff2') format('woff2');
+}
